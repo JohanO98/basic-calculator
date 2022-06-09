@@ -1,0 +1,14 @@
+{
+    "name": "johanoen98/skeleton",
+    "description": "A basic calculator",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/JohanO98/basic-calculator"
+        }
+    ],
+    "require": {
+        "php":"8.1.5"
+    }
+
+}

@@ -2,10 +2,10 @@
 namespace JohanO98\basiccalculator;
 
 class Calculator {
-    public $num1;
-    public $num2;
+    public int|float $num1;
+    public int|float $num2;
     public $operator;
-    public function __construct(int $num1, string $operator, int $num2) {
+    public function __construct(int|float $num1, string $operator, int|float $num2) {
         $this->operator = $operator;
         $this->num1= $num1;
         $this->num2= $num2;

@@ -14,11 +14,11 @@ class Calculator {
     public function calculate(){
         switch($this->operator) {
             case '+':
-                $result = $this->num1+$this->num2;
+                $result = $this->num1+$this->$num2;
                 return $result;
                 break;
             case '-':
-                $result = $this->num1-$this->num2;
+                $result = $this->num1-$this->$num2;
                 return $result;
                 break;
             case '/':

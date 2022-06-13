@@ -16,20 +16,16 @@ class Calculator {
             case '+':
                 $result = $this->num1+$this->$num2;
                 return $result;
-                break;
             case '-':
                 $result = $this->num1-$this->$num2;
                 return $result;
-                break;
             case '/':
                 $result = $this->num1/$this->$num2;
                 return $result;
-                break;
+
             case '*':
                 $result = $this->num1*$this->$num2;
                 return $result;
-                default:
-                break;
         }
     }
 }
